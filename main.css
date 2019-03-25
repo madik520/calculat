@@ -1,0 +1,73 @@
+body{
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+button{
+	font-size: 2rem;
+	border-radius: 3px;
+	border: 5px solid black;
+	background-color: #fff;
+}
+button:active{
+	background-color: #4141FF;
+	color: white;
+}
+.app{
+	margin: 50px auto;
+	width: 670px;
+	height: 650px;
+	background-color: #2E2D2D;
+	border: 5px solid black;
+	border-radius: 3px;
+	box-shadow: 0px 21px 25px -9px rgba(0,0,0,1);
+}
+
+
+#text{
+    margin-top: 10px;
+	margin-left: 20px;
+	grid-column: 1/3;
+	width: 90.5%;
+	height: 100px;
+	border: 5px solid black;
+	border-radius: 1px;
+	font-size: 4rem;
+	text-align: right;
+	padding-right: 20px;
+	color: green;
+}
+.flex__container {
+	display: flex;
+	justify-content: space-between;
+}
+.num__list{
+	margin-left: 15px;
+}
+.num__list > button{
+	margin-left: 5px;
+	margin-top: 15px;
+	width: 110px;
+	height: 110px;
+}
+.num__list > button:nth-child(10){
+	width: 230px;
+}
+.operations__list{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin-right: 15px;
+}
+.operations__list > button{
+	margin-top: 15px;
+	margin-left: 5px;
+	width: 110px;
+	height: 110px;
+}
+.operations__list > button:nth-child(5){
+	margin-top: 140px;
+}
+
+.operations__list > button:nth-child(6){
+	height: 235px;
+}
